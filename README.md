@@ -1,7 +1,7 @@
 <h1 align="center">
   Fudge 
   <br>
-  <img src="https://image.pngaaa.com/897/2507897-middle.png" alt="fudge logo" title="fudge logo" width="300">
+  <img src="https://icons-for-free.com/iconfiles/png/512/design+development+facebook+framework+mobile+react+icon-1320165723839064798.png" alt="fudge logo" title="fudge logo" width="300">
   <br>
 </h1>
 
