@@ -1,0 +1,73 @@
+.commentsAndUsersWrapper {
+  margin: -5px -11px 0px -11px !important;
+  height: 598px;
+}
+.usersRow {
+  margin-bottom: 21px;
+}
+.usersContainer {
+  justify-content: space-around;
+  height: 100%;
+}
+.userSection {
+  box-shadow: 0px 1px 5px 2px #dfdfdf;
+  padding: 20px 4px 25px 23px;
+  border-radius: '9px';
+  overflow-y: auto;
+  height: 598px;
+  overflow-x: hidden;
+}
+.userImage {
+  width: 60px;
+  border-radius: 50%;
+  height: 60px;
+  object-fit: cover;
+}
+
+.activeUserWrapper {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.isActive {
+  background: #1bbc1b;
+  width: 13px;
+  height: 13px;
+  display: block;
+  border-radius: 50%;
+  position: relative;
+  top: -13px;
+  float: right;
+}
+.disActive {
+  background: #8b8b8b;
+  width: 13px;
+  height: 13px;
+  display: block;
+  border-radius: 50%;
+  position: relative;
+  top: -13px;
+  float: right;
+}
+
+.activeUser {
+  background: #1bbc1b;
+  width: 13px;
+  height: 13px;
+  display: block;
+  border-radius: 50%;
+  margin-top: 7px;
+  margin-right: 8px;
+}
+.disActiveUser {
+  background: #8b8b8b;
+  width: 13px;
+  height: 13px;
+  display: block;
+  border-radius: 50%;
+  margin-top: 7px;
+  margin-right: 8px;
+}
+.lastActive {
+  color: gray;
+}

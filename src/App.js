@@ -1,24 +1,29 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import Navbar from './components/layout/navbar/Navbar';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import Dashboard from './components/Dashboard/index';
+import ComingSoonPages from './components/ComingSoonPages/index';
+import Landing from './components/Landing/index';
+import { SidebarData } from './components/layout/navbar/SidebarData';
+
+import './App.scss';
 
 function App() {
+  // filtered sidebar paths, for showing dynamic routes(coming soon)
+  const pathname = SidebarData.filter((sidebar) => sidebar.path !== '/dashboard').map((data, i) => data.path);
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Router>
+        <Switch>
+          <Route exact path='/' component={Landing} />
+          <>
+            <Navbar />
+            <Route exact path='/dashboard' component={Dashboard}></Route>
+            <Route exact path={pathname} component={ComingSoonPages}></Route>
+          </>
+        </Switch>
+      </Router>
+    </>
   );
 }
 

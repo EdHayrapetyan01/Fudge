@@ -1,0 +1,93 @@
+.welcomeMsg {
+  font-size: 20px;
+  line-height: 65px;
+  margin-left: -40px;
+}
+
+.dropdown-toggle {
+  font-size: 14px;
+  background: unset;
+  color: black;
+  border: unset;
+  outline: unset;
+}
+
+.btn-secondary.focus,
+.btn-secondary:focus {
+  box-shadow: unset;
+  color: black;
+  background-color: unset;
+}
+
+.btn-secondary:hover {
+  color: unset;
+  background-color: unset;
+  border-color: unset;
+}
+
+.show > .btn-secondary.dropdown-toggle {
+  color: rgb(0, 0, 0);
+  background-color: #ffffff;
+  border-color: unset;
+  box-shadow: unset;
+}
+
+.btn-secondary.active {
+  background-color: #ffffff;
+  border-color: unset;
+}
+
+.btn-secondary:not(:disabled):not(.disabled).active,
+.btn-secondary:not(:disabled):not(.disabled):active,
+.show > .btn-secondary.dropdown-toggle {
+  color: rgb(20, 20, 20);
+  background-color: #ffffff;
+  border-color: #ffffff;
+  box-shadow: unset;
+  outline: unset;
+}
+.dropdown {
+  display: inline-block;
+}
+.header {
+  width: 97%;
+  margin-left: 22px;
+  margin-top: 29px;
+}
+.rootHeading {
+  font-size: 30px;
+  color: #151515;
+}
+.username {
+  font-weight: bold;
+}
+.dashboardHr {
+  background: gainsboro;
+  margin: 19px 0px 0px -26px;
+}
+.dropdown-toggle:focus {
+  outline: none !important;
+}
+.btn-secondary:focus {
+  outline: none !important;
+  box-shadow: unset !important;
+}
+.dropdown-item.active,
+.dropdown-item:active {
+  color: rgb(37, 37, 37);
+  text-decoration: none;
+  background-color: #ffffff;
+  outline: none;
+  box-shadow: none;
+}
+.dropdown-item:hover {
+  transition: 0.5s;
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 1770px) {
+  .rootHeading {
+     font-size: 26px;
+  }
+}
