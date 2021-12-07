@@ -8,7 +8,6 @@
 
 <hr />
 
-[![MIT License][license-badge]][license]
 
 
 ## Project Title
@@ -20,7 +19,7 @@ Fudge financial test app
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
-- [AboutTheApp](#AboutTheApp)
+- [About](#About)
 - [Technologies](#Technologies)
 - [Setup](#setup)
 - [Status](#status)
@@ -28,7 +27,7 @@ Fudge financial test app
 
 ## About the App
 
-Fudge dashboard is an frontend test application written by React, and the main concepts are the quick stats, financial health, performance goals etc.
+Fudge dashboard is an frontend test application written by React, and the main concepts are the quick stats, financial health, performance goals, news, users.
 
 ## Technologies
 
