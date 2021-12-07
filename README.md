@@ -1,7 +1,7 @@
 <h1 align="center">
   Fudge 
   <br>
-  <img src="https://w7.pngwing.com/pngs/417/38/png-transparent-expense-management-finance-budget-android.png" alt="fudge logo" title="fudge logo" width="300">
+  <img src="https://image.pngaaa.com/897/2507897-middle.png" alt="fudge logo" title="fudge logo" width="300">
   <br>
 </h1>
 
