@@ -1,70 +1,49 @@
-# Getting Started with Create React App
+<h1 align="center">
+  Fudge 
+  <br>
+  <img src="https://w7.pngwing.com/pngs/417/38/png-transparent-expense-management-finance-budget-android.png" alt="fudge logo" title="fudge logo" width="300">
+  <br>
+</h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+<hr />
 
-In the project directory, you can run:
+[![MIT License][license-badge]][license]
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Project Title
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+Fudge financial test app
 
-### `npm test`
+## Table of Contents
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
-### `npm run build`
+- [AboutTheApp](#AboutTheApp)
+- [Technologies](#Technologies)
+- [Setup](#setup)
+- [Status](#status)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## About the App
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Fudge dashboard is an frontend test application written by React, and the main concepts are the quick stats, financial health, performance goals etc.
 
-### `npm run eject`
+## Technologies
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+React, sass, chart.js, react router dom, reactstrap for ui, uuid, react-icons etc.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Approach
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+I used the camelCase naming style for my css class names and Sans Serif font which is a free alternative from Google that can be used instead of Helvetica.(root parent font of Helvetica)
+Entire application didn't pixel perfect because i used adobe xd trial version and it isn't provide all the necessary info. Example (trackers, sidebar, icons) didn't show fully info, like paddings margins between rows, but everything else implemented as needed (width,height etc.) plus created working modals , user rows are scrollable if user data gets to long, also logout which redirected to the landing page, and all other routes from sidebar aren't just blank pages, added "coming soon" little design to make entire app dynamic.All the data are mock as needed. The one issue regarding the design is responsiveness, not have much time for make responsive, but worked only landing page responsiveness
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+**🚨 Setup 🚨**
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- `1`: download or clone the repository.
+- `2`: navigate the cloned repo.
+- `3`: install the application with npm i.
+- `4`: run the Application with npm start.
